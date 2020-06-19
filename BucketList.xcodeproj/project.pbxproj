@@ -15,8 +15,8 @@
 		A40A977A2499CBBE003D5653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40A97792499CBBE003D5653 /* Preview Assets.xcassets */; };
 		A40A977D2499CBBE003D5653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40A977B2499CBBE003D5653 /* LaunchScreen.storyboard */; };
 		A45BB591249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BB590249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift */; };
-		A45BB593249B20720055B781 /* ComparableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BB592249B20720055B781 /* ComparableUseCase.swift */; };
 		A45BB595249B21090055B781 /* IntegratingMapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BB594249B21090055B781 /* IntegratingMapKit.swift */; };
+		D1917E35249B435200526DAD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1917E34249B435200526DAD /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		A40A977C2499CBBE003D5653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A40A977E2499CBBE003D5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A45BB590249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewsUsingEnums.swift; sourceTree = "<group>"; };
-		A45BB592249B20720055B781 /* ComparableUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableUseCase.swift; sourceTree = "<group>"; };
 		A45BB594249B21090055B781 /* IntegratingMapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingMapKit.swift; sourceTree = "<group>"; };
+		D1917E34249B435200526DAD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +67,10 @@
 				A40A976D2499CBBD003D5653 /* AppDelegate.swift */,
 				A40A976F2499CBBD003D5653 /* SceneDelegate.swift */,
 				A40A97742499CBBD003D5653 /* ContentView.swift */,
-				A45BB592249B20720055B781 /* ComparableUseCase.swift */,
 				A45BB590249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift */,
 				A45BB594249B21090055B781 /* IntegratingMapKit.swift */,
 				A40A97762499CBBE003D5653 /* Assets.xcassets */,
+				D1917E34249B435200526DAD /* MapView.swift */,
 				A40A977B2499CBBE003D5653 /* LaunchScreen.storyboard */,
 				A40A977E2499CBBE003D5653 /* Info.plist */,
 				A40A97712499CBBD003D5653 /* BucketList.xcdatamodeld */,
@@ -159,9 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40A976E2499CBBD003D5653 /* AppDelegate.swift in Sources */,
+				D1917E35249B435200526DAD /* MapView.swift in Sources */,
 				A40A97732499CBBD003D5653 /* BucketList.xcdatamodeld in Sources */,
 				A40A97752499CBBD003D5653 /* ContentView.swift in Sources */,
-				A45BB593249B20720055B781 /* ComparableUseCase.swift in Sources */,
 				A45BB591249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift in Sources */,
 				A45BB595249B21090055B781 /* IntegratingMapKit.swift in Sources */,
 				A40A97702499CBBD003D5653 /* SceneDelegate.swift in Sources */,
