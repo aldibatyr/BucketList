@@ -8,13 +8,9 @@
 
 import SwiftUI
 
-// using comparable protocol
-
-
-
 struct ContentView: View {
     var body: some View {
-        MapView().edgesIgnoringSafeArea(.all)
+        AdvancedMapView()
     }
 }
 

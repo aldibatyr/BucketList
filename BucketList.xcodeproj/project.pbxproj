@@ -17,6 +17,16 @@
 		A45BB591249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BB590249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift */; };
 		A45BB595249B21090055B781 /* IntegratingMapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BB594249B21090055B781 /* IntegratingMapKit.swift */; };
 		D1917E35249B435200526DAD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1917E34249B435200526DAD /* MapView.swift */; };
+		D1F52091249EC1A0001D30C2 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F52090249EC1A0001D30C2 /* MKPointAnnotation-Codable.swift */; };
+		D1F52093249F0FFC001D30C2 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F52092249F0FFC001D30C2 /* AuthenticatedView.swift */; };
+		D1FCDDB0249D99F0006AF4EB /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCDDAF249D99F0006AF4EB /* Authentication.swift */; };
+		D1FCDDB2249DB00E006AF4EB /* AdvancedMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCDDB1249DB00E006AF4EB /* AdvancedMapView.swift */; };
+		D1FCDDB4249DBDD6006AF4EB /* AlternateMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCDDB3249DBDD6006AF4EB /* AlternateMapView.swift */; };
+		D1FCDDB6249DC1D6006AF4EB /* Checkpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCDDB5249DC1D6006AF4EB /* Checkpoint.swift */; };
+		D1FCDDB8249DC274006AF4EB /* MapViewAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCDDB7249DC273006AF4EB /* MapViewAdvanced.swift */; };
+		D1FCDDBA249EB59F006AF4EB /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCDDB9249EB59F006AF4EB /* MKPointAnnotation-ObservableObject.swift */; };
+		D1FCDDBC249EB647006AF4EB /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCDDBB249EB647006AF4EB /* EditView.swift */; };
+		D1FCDDBE249EB9E4006AF4EB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCDDBD249EB9E4006AF4EB /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,16 @@
 		A45BB590249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewsUsingEnums.swift; sourceTree = "<group>"; };
 		A45BB594249B21090055B781 /* IntegratingMapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingMapKit.swift; sourceTree = "<group>"; };
 		D1917E34249B435200526DAD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D1F52090249EC1A0001D30C2 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		D1F52092249F0FFC001D30C2 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
+		D1FCDDAF249D99F0006AF4EB /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		D1FCDDB1249DB00E006AF4EB /* AdvancedMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMapView.swift; sourceTree = "<group>"; };
+		D1FCDDB3249DBDD6006AF4EB /* AlternateMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateMapView.swift; sourceTree = "<group>"; };
+		D1FCDDB5249DC1D6006AF4EB /* Checkpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoint.swift; sourceTree = "<group>"; };
+		D1FCDDB7249DC273006AF4EB /* MapViewAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewAdvanced.swift; sourceTree = "<group>"; };
+		D1FCDDB9249EB59F006AF4EB /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		D1FCDDBB249EB647006AF4EB /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		D1FCDDBD249EB9E4006AF4EB /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +87,22 @@
 				A40A976D2499CBBD003D5653 /* AppDelegate.swift */,
 				A40A976F2499CBBD003D5653 /* SceneDelegate.swift */,
 				A40A97742499CBBD003D5653 /* ContentView.swift */,
+				D1FCDDB5249DC1D6006AF4EB /* Checkpoint.swift */,
 				A45BB590249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift */,
 				A45BB594249B21090055B781 /* IntegratingMapKit.swift */,
+				D1FCDDAF249D99F0006AF4EB /* Authentication.swift */,
 				A40A97762499CBBE003D5653 /* Assets.xcassets */,
 				D1917E34249B435200526DAD /* MapView.swift */,
+				D1FCDDB9249EB59F006AF4EB /* MKPointAnnotation-ObservableObject.swift */,
+				D1FCDDB3249DBDD6006AF4EB /* AlternateMapView.swift */,
+				D1FCDDBB249EB647006AF4EB /* EditView.swift */,
+				D1F52090249EC1A0001D30C2 /* MKPointAnnotation-Codable.swift */,
 				A40A977B2499CBBE003D5653 /* LaunchScreen.storyboard */,
+				D1FCDDB1249DB00E006AF4EB /* AdvancedMapView.swift */,
+				D1F52092249F0FFC001D30C2 /* AuthenticatedView.swift */,
 				A40A977E2499CBBE003D5653 /* Info.plist */,
+				D1FCDDBD249EB9E4006AF4EB /* Result.swift */,
+				D1FCDDB7249DC273006AF4EB /* MapViewAdvanced.swift */,
 				A40A97712499CBBD003D5653 /* BucketList.xcdatamodeld */,
 				A40A97782499CBBE003D5653 /* Preview Content */,
 			);
@@ -161,10 +191,20 @@
 				A40A976E2499CBBD003D5653 /* AppDelegate.swift in Sources */,
 				D1917E35249B435200526DAD /* MapView.swift in Sources */,
 				A40A97732499CBBD003D5653 /* BucketList.xcdatamodeld in Sources */,
+				D1FCDDBA249EB59F006AF4EB /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				D1FCDDBC249EB647006AF4EB /* EditView.swift in Sources */,
+				D1FCDDB8249DC274006AF4EB /* MapViewAdvanced.swift in Sources */,
+				D1FCDDBE249EB9E4006AF4EB /* Result.swift in Sources */,
 				A40A97752499CBBD003D5653 /* ContentView.swift in Sources */,
+				D1FCDDB4249DBDD6006AF4EB /* AlternateMapView.swift in Sources */,
+				D1FCDDB2249DB00E006AF4EB /* AdvancedMapView.swift in Sources */,
+				D1FCDDB6249DC1D6006AF4EB /* Checkpoint.swift in Sources */,
 				A45BB591249B1F9E0055B781 /* SwitchingViewsUsingEnums.swift in Sources */,
 				A45BB595249B21090055B781 /* IntegratingMapKit.swift in Sources */,
 				A40A97702499CBBD003D5653 /* SceneDelegate.swift in Sources */,
+				D1F52091249EC1A0001D30C2 /* MKPointAnnotation-Codable.swift in Sources */,
+				D1F52093249F0FFC001D30C2 /* AuthenticatedView.swift in Sources */,
+				D1FCDDB0249D99F0006AF4EB /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
